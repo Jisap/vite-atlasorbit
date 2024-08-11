@@ -10,6 +10,13 @@ import DogCateg4 from './assets/img/dogs/dog-categ-4.png';
 // import social icons
 import { AiFillYoutube, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
 
+import brand1 from '../src/assets/img/brands/brand1.png';
+import brand2 from '../src/assets/img/brands/brand2.png';
+import brand3 from '../src/assets/img/brands/brand3.png'
+import brand4 from '../src/assets/img/brands/brand4.png'
+import brand5 from '../src/assets/img/brands/brand5.png'
+import brand6 from '../src/assets/img/brands/brand6.png'
+
 export const navigation = [
   {
     name: 'home',
@@ -237,27 +244,27 @@ export const social = [
 
 export const brandImages = [
   {
-    src: 'src/assets/img/brands/brand1.png',
+    src: brand1,
     href: '#',
   },
   {
-    src: 'src/assets/img/brands/brand2.png',
+    src: brand2,
     href: '#',
   },
   {
-    src: 'src/assets/img/brands/brand3.png',
+    src: brand3,
     href: '#',
   },
   {
-    src: 'src/assets/img/brands/brand4.png',
+    src: brand4,
     href: '#',
   },
   {
-    src: 'src/assets/img/brands/brand5.png',
+    src: brand5,
     href: '#',
   },
   {
-    src: 'src/assets/img/brands/brand6.png',
+    src: brand6,
     href: '#',
   },
 ]
