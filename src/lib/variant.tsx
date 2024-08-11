@@ -14,7 +14,7 @@ export const fadeIn = (direction: string, delay: number) => {
           : 0,                    // Si no se expecifica ninguna dirección la pos inicial = final  
       transition: {                   // Define como se ve el elemento al principio de la animación
         type: `tween`,                // Utilizará la animación tween
-        duration: 1.4,                // durará 1.4 segundos
+        duration: 0.6,                // durará 1.4 segundos
         delay: delay,                 // con un retraso antes de que comienze 
         ease: [0.25, 0.6, 0.3, 0.8],  // matriz que define la velocidad de animación en diferentes puntos
       },
@@ -25,7 +25,7 @@ export const fadeIn = (direction: string, delay: number) => {
       opacity: 1,                 // opacity en 1 hará que el elemento será completamente opaco al final de la animación
       transition: {               // Define como se ve el elemento al final de la animación
         type: `tween`,
-        duration: 1.2,
+        duration: 0.5,
         delay: delay,
         ease: [0.25, 0.2, 0.25, 0.7],
       }
